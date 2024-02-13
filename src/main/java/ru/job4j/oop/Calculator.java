@@ -13,7 +13,7 @@ public class Calculator {
     }
 
     public static int minus(int b) {
-        return d - x;
+        return b - x;
     }
 
     public int divide(int d) {
