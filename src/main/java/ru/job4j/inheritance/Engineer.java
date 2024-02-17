@@ -5,6 +5,6 @@ public class Engineer extends Profession {
 
     public Engineer(int experience, boolean degree) {
         super(degree);
-        this.experience = experience;
+        this.experience = experience
     }
 }
