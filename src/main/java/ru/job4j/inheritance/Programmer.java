@@ -5,6 +5,6 @@ public class Programmer extends Engineer {
 
     public Programmer(String programLanguage, int experience, boolean degree) {
         super(experience, degree);
-        this.programLanguage = programLanguage
+        this.programLanguage = programLanguage;
     }
 }
