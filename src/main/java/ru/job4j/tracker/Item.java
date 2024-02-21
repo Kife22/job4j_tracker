@@ -6,21 +6,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Item {
 
-      private final LocalDateTime created = LocalDateTime.now();
-
-    public LocalDateTime getCreated() {
-        return created;
-    }
-
-    public class StaetUI {
-        public static void main(String[] args) {
-            Item item = new Item();
-            LocalDateTime createdDate = item.getCreated();
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMMM-EEEE-yyyy HH:mm:ss");
-            String formattedDate = createdDate.format(formatter);
-            System.out.println("Item created on: " + formattedDate);
-        }
-    }
+    private final LocalDateTime created = LocalDateTime.now();
 
     private int id;
     private String name;
@@ -35,6 +21,10 @@ public class Item {
     public Item(String name, int id) {
         this.name = name;
         this.id = id;
+    }
+
+    public LocalDateTime getCreated() {
+        return created;
     }
 
     public int getId() {
