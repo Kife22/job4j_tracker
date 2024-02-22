@@ -18,7 +18,7 @@ public class Libary {
         System.out.println("Show only \"Clean cod\"");
         for (int i = 0; i < books.length; i++) {
             Book book = books[i];
-            if (book.getName() == "Clean cod") {
+            if ("Clean cod".equals(book.getName())) {
                 System.out.println("Length book " + book.getName() + " - " + book.getNumber());
             }
         }
