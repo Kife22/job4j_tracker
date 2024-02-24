@@ -6,7 +6,7 @@ import java.util.Random;
 public class MagicBall {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Я великий Оракулю Что ты хочешь узнать?");
+        System.out.println("Я великий Оракул. Что ты хочешь узнать?");
         String text = input.nextLine();
         System.out.println(text);
         int answer = new Random().nextInt(3);
