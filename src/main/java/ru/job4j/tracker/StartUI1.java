@@ -24,14 +24,12 @@ public class StartUI1 {
                 } else {
                     System.out.println("Хранилище еще не содержит заявок");
                 }
-                for (Item item : items) {
-                    System.out.println(item);
-                }
             } else if (select == 6) {
                 run = false;
             }
         }
     }
+
     private void showMenu() {
         String[] menu = {
                 "Добавить новую заявку", "Показать все заявки", "Изменить заявку",
@@ -43,6 +41,7 @@ public class StartUI1 {
             System.out.println(i + ". " + menu[i]);
         }
     }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Tracker tracker = new Tracker();
