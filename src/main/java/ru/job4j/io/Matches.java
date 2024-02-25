@@ -12,9 +12,10 @@ public class Matches {
             System.out.println(player + " введите число от 1 до 3:");
             int matches = Integer.parseInt(input.nextLine());
             turn = !turn;
-            if (matches < 1 || matches > 3 || matches > count) {
+            while (matches < 1 || matches > 3 || matches > count) {
                 System.out.println("Некорректное число спичек. Повторите ввод.");
-                continue;
+                System.out.println(player + " введите число от 1 до 3:");
+                matches = Integer.parseInt(input.nextLine());
             }
             count -= matches;
             System.out.println("Осталось " + count + " спичек");
