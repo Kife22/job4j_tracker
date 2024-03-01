@@ -6,6 +6,7 @@ public class StartUI {
         boolean run = true;
         while (run) {
             showMenu();
+
             int select = Integer.parseInt(input.askStr("Выбрать: "));
             if (select == 0) {
                 System.out.println("=== Создание новой заявки ===");
