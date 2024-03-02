@@ -9,7 +9,7 @@ public class StartUI {
             int select = input.askInt("Выбрать: ");
             if (select == 0) {
                 System.out.println("=== Создание новой заявки ===");
-                String name = input.askStr("Введите имя: ");
+                String name = input.askStr("Введите имя: "));
                 Item item = new Item(name);
                 tracker.add(item);
                 System.out.println("Добавленная заявка: " + item);
