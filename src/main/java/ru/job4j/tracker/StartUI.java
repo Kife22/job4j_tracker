@@ -1,6 +1,6 @@
 package ru.job4j.tracker;
 
-import ru.job4j.action1.*;
+import ru.job4j.action.*;
 
 public class StartUI {
     private final Output output;
