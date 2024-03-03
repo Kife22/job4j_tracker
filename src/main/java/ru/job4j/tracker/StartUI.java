@@ -1,6 +1,14 @@
 package ru.job4j.tracker;
 
-import ru.job4j.action.*;
+import ru.job4j.action.UserAction;
+import ru.job4j.action.Create;
+import ru.job4j.action.FindAll;
+import ru.job4j.action.Replace;
+import ru.job4j.action.Delete;
+import ru.job4j.action.FindById;
+import ru.job4j.action.FindByName;
+import ru.job4j.action.Exit;
+
 
 public class StartUI {
     private final Output output;
