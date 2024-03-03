@@ -1,6 +1,9 @@
 package ru.job4j.tracker;
 
 public class FindByNameAction implements UserAction {
+    public FindByNameAction(Output output) {
+    }
+
     @Override
     public String name() {
         return "Показать заявки по имени";
