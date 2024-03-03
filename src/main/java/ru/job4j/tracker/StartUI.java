@@ -9,7 +9,6 @@ import ru.job4j.action.FindById;
 import ru.job4j.action.FindByName;
 import ru.job4j.action.Exit;
 
-
 public class StartUI {
     private final Output output;
 
