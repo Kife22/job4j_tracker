@@ -23,8 +23,8 @@ public class FindAllAction implements UserAction {
                 output.println(item);
             }
         } else {
-                output.println("Хранилище еще не содержит заявок");
-            }
-            return true;
+            output.println("Хранилище еще не содержит заявок");
         }
+        return true;
     }
+}
