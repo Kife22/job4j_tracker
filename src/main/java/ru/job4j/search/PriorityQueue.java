@@ -17,7 +17,6 @@ public class PriorityQueue {
         this.tasks.add(i, task);
     }
 
-
     public Task take() {
         return tasks.poll();
     }
