@@ -10,6 +10,5 @@ public class FullSearch {
             numbers.add(task.getNumber());
         }
         return numbers;
-
     }
 }
