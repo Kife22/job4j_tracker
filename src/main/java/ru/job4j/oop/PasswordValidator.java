@@ -30,6 +30,7 @@ public class PasswordValidator {
                 break;
             }
         }
+
         if (!hasUpCase) {
             throw new IllegalArgumentException("Password should contain at least one uppercase letter");
         }
