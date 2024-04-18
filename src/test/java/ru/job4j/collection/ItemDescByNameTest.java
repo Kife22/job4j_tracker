@@ -21,5 +21,4 @@ public class ItemDescByNameTest {
         Collections.sort(items, new ItemDescByName()); // Сортировка по убыванию имени
         assertEquals(expected, items);
     }
-
 }
