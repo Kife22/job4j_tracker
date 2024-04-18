@@ -18,7 +18,7 @@ public class ItemDescByNameTest {
         items.add(new Item("C", 2));
         List<Item> expected = new ArrayList<>(items);
         Collections.sort(expected, new ItemDescByName());
-        Collections.sort(items, new ItemDescByName()); // Сортировка по убыванию имени
+        Collections.sort(items, new ItemDescByName());
         assertEquals(expected, items);
     }
 }
