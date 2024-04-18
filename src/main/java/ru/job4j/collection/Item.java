@@ -3,6 +3,7 @@ package ru.job4j.collection;
 public class Item implements Comparable<Item> {
     private String name;
 
+
     private int priority;
 
     public Item(String name, int priority) {

@@ -21,4 +21,5 @@ public class ItemAscByNameTest {
         Collections.sort(items, new ItemAscByName());
         assertEquals(expected, items);
     }
+
 }
